@@ -8,17 +8,17 @@ Game :: Game() {
 	maxBalls = 6;
 	totalPlayers = 11;
 
-	players[0] = "KL Rahul";
-	players[1] = "Rohit Sharma";
-	players[2] = "Shreyas Lyear";
-	players[3] = "Prithvi Show";
-	players[4] = "Hardik Pandya";
-	players[5] = "Shivam Dubey";
-	players[6] = "Ishan Kishan";
-	players[7] = "Jadeja";
-	players[8] = "Bumrah";
-	players[9] = "Shammi";
-	players[10] = "Bhuwaneshwar";
+	player[0] = "KL Rahul";
+	player[1] = "Rohit Sharma";
+	player[2] = "Shreyas Lyear";
+	player[3] = "Prithvi Show";
+	player[4] = "Hardik Pandya";
+	player[5] = "Shivam Dubey";
+	player[6] = "Ishan Kishan";
+	player[7] = "Jadeja";
+	player[8] = "Bumrah";
+	player[9] = "Shammi";
+	player[10] = "Bhuwaneshwar";
 
 	isFirstInning = false;
 	teamA.name = "Team-A";
@@ -347,6 +347,4 @@ void Game :: showGameScoreCard() {
     << bowler->ballsBowled << " - " << bowler->runsGiven << " - " << bowler->wicketTaken << "\t" <<endl;
 
     cout << "----------------------------------------------------------------" << endl << endl;
-}
-}
 }
