@@ -6,6 +6,9 @@
 // Description : CRICKET GAME in C++
 //============================================================================
 
+#include<iostream.h>
+#include<cstdlib.h>
+#include<ctime.h>
 #include "game.h"  // <iostream> , <cstdlib> , <ctime> , <limits> , "team.h
 
 using namespace std;
