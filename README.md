@@ -1,4 +1,4 @@
-# cricket.cpp
+# creating cricaket game application
 Virtual Cricket Game Application   
                           Hi, Welcome Back!
 Glad to see that we have made it so far in this training i.e. till the last module.
